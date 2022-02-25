@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="note">Note</string>
+    <string name="title">Title</string>
+    <string name="album">Albums</string>
+    <string name="Todo">To-do-list</string>
+    <string name="reminder">Reminder</string>
+    <string name="add_note">Add note</string>
+    <string name="notepad">Notepad</string>
+    <string name="search">Search</string>
+    <string name="note_something_down">Note Something down</string>
+    <string name="item_address">item address</string>
+    <string name="item_name">item name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="starred_notes">Starred notes</string>
+    <string name="delete">Delete</string>
+    <string name="save">save</string>
+</resources>

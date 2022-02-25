@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_photo_album_24"
+        android:title="@string/album"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="@string/Todo"/>
+    <item
+        android:id="@+id/page_3"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_access_alarm_24"
+        android:title="@string/reminder"/>
+</menu>
