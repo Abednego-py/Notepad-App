@@ -54,10 +54,14 @@ class ListFragment : Fragment(R.layout.fragment_list), SearchView.OnQueryTextLis
           this.findNavController().navigate(action)
       }
 
+        val mLayoutManager = LinearLayoutManager(requireContext())
+        mLayoutManager.reverseLayout = true;
+        mLayoutManager.stackFromEnd = true;
+        
         binding.apply {
             recyclerList.apply {
                 adapter = notesAdapter
-                layoutManager = LinearLayoutManager(requireContext())
+                layoutManager = mLayoutManager
             }
         }
 
